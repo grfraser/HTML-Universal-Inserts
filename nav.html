@@ -67,18 +67,21 @@
 
     .dropdown-content {
         border-bottom-style: solid;
-        border-width: 1px;  
+        border-width: 1px;
+        border-color: rgba(170, 170, 170, .75);  
     }
 
     .dropdown-content a {
         border-top-style:solid;
         border-width: 1px;
+        border-color: rgba(170, 170, 170, .5);  
+
     }
 
   
 </style>
 
-<div class="w3-top">
+<div class="w3-top" id="#menuBarFull">
     <div class="w3-bar w3-white w3-wide w3-padding w3-card navbar">
         <a href="#home" class="w3-bar-item w3-button"><b>BR</b> Architects</a>
         
@@ -87,19 +90,16 @@
             <a href="#projects" class="w3-bar-item w3-button myButtons"><div>Projects</div></a>
             <a href="#about" class="w3-bar-item w3-button myButtons">About</a>
             <a href="#contact" class="w3-bar-item w3-button myButtons">Contact</a>
-            <div style="padding: 0px;" id="#menuBarFull "class="dropdown w3-bar-item w3-button">
+            <div style="padding: 0px;" class="dropdown w3-bar-item w3-button">
                 <button style="font-family: Verdana, sans-serif;letter-spacing: 4px;" class="dropbtn w3-button myButtons">Bonus Content  <i class="fa fa-caret-down"></i>
                 <div style="margin-top:8px;margin-left: -16px; " class="dropdown-content">
                     <a href="//google.com" class="w3-button myButtons">Google</a>
                     <a href="//yahoo.com" class="w3-button myButtons">Yahoo</a>
                     <a href="//aquaspaceproductions.com " class="w3-button myButtons">ASP</a>
+                </div>
                 </button>
-                </div> 
             </div>
         </div>
-
-
-
 
     </div>
 </div>
